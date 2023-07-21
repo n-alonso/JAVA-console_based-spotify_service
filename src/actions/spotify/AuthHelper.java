@@ -25,9 +25,9 @@ public class AuthHelper {
 
     private final String redirectUri = URLEncoder.encode("http://localhost:8080", StandardCharsets.UTF_8);
 
-    private final String client_id = URLEncoder.encode("499719171d5e47ec800ba5472161578a", StandardCharsets.UTF_8);
+    private final String client_id = URLEncoder.encode("", StandardCharsets.UTF_8);
 
-    private final String client_secret = URLEncoder.encode("7423ba97d98a4aedabaa4747694e2d1a", StandardCharsets.UTF_8);
+    private final String client_secret = URLEncoder.encode("", StandardCharsets.UTF_8);
 
     public AuthHelper(User user) {
         this.client = HttpClient.newBuilder().build();
